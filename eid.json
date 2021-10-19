@@ -1,0 +1,449 @@
+{
+  "messages": [
+    {
+      "message": {
+        "timestamp": 1634661068554,
+        "name": "pageView",
+        "eventCaseId": "mySpectrum_pageView_buyFlow2_addReceivers",
+        "triggeredBy": "user",
+        "category": "navigation",
+        "feature": {
+          "featureName": null,
+          "featureType": null,
+          "currentStep": 0,
+          "numberOfSteps": null,
+          "featureStepName": "addTvEquipment-addReceivers",
+          "transactionId": "a967afc3-25aa-49ca-a8a6-e2e5c3d460a6 | 63770236242502",
+          "featureStepChanged": true,
+          "previousStep": null,
+          "completedSteps": null,
+          "clientCart": null,
+          "buyflow": {
+            "eligible": null,
+            "blacklistedFromFreePreview": null,
+            "blacklistedFromFreeTrial": null,
+            "householdFoundInMarketingFile": null,
+            "targetedOfferFound": null,
+            "requestedFreePreviewDisabled": null,
+            "requestedOfferMatchedTargeted": null,
+            "requestedOfferIsReturned": null,
+            "offerPriority": null,
+            "appPromoState": null,
+            "requestedOfferId": null,
+            "scenarioNumber": null,
+            "singleOfferReturned": null,
+            "offerId": null,
+            "presentedOffers": null
+          }
+        },
+        "context": "buyFlow2",
+        "sequenceNumber": 67,
+        "timeSinceLastEventMs": 50,
+        "triggeredUsing": null,
+        "notification": null
+      },
+      "state": {
+        "name": "navigating",
+        "entryTimestamp": 1634661068554,
+        "previousState": {
+          "name": "appInitialized",
+          "entryTimestamp": 1634661068504,
+          "entryVideoPosition": 0,
+          "exitVideoPosition": 0,
+          "exitTimestamp": 1634661068554
+        },
+        "view": {
+          "currentPage": {
+            "currentBalanceAmount": null,
+            "appSection": "buyFlow-wifiPods",
+            "pageName": "addReceivers",
+            "pageSection": {
+              "name": null,
+              "index": null,
+              "numberOfItems": null,
+              "displayType": null,
+              "onSiteCampaignId": null,
+              "adType": null,
+              "campaignCategory": null
+            },
+            "pageSubSection": null,
+            "pageSequenceNumber": 4,
+            "pageViewedTimeMs": 0,
+            "navigation": null,
+            "renderDetails": {
+              "isLazyLoad": false,
+              "renderInitTimestamp": 1634661068053,
+              "partialRenderedTimestamp": null,
+              "partialRenderedMs": null,
+              "fullyRenderedTimestamp": 1634661068554,
+              "fullyRenderedMs": 501,
+              "viewRenderedStatus": "complete"
+            },
+            "settings": null,
+            "elements": {
+              "StateType": 11,
+              "uiName": null,
+              "standardizedName": null,
+              "numberOfItems": null,
+              "elementType": null,
+              "parentallyBlockedItems": null,
+              "entitledItems": null,
+              "elementIndex": null,
+              "elementIntValue": null,
+              "elementStringValue": null,
+              "elementUrl": null,
+              "selectedOptions": null,
+              "yCoordinate": null,
+              "xCoordinate": null
+            },
+            "billing": {
+              "billDueDate": null,
+              "billStartDate": null,
+              "billEndDate": null,
+              "billProgress": null,
+              "ccVendor": null,
+              "paymentMethod": null,
+              "recentCharges": null,
+              "core": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              },
+              "mobile": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              }
+            },
+            "components": null,
+            "additionalInformation": null,
+            "pageTitle": null,
+            "totalAmountDue": null,
+            "pastDueAmount": null,
+            "billerType": null,
+            "pageDisplayType": null,
+            "parentMarket": null,
+            "childMarket": null,
+            "orders": null,
+            "userSubJourney": null
+          },
+          "previousPage": {
+            "currentBalanceAmount": null,
+            "appSection": "planDetails",
+            "pageName": "planDetails",
+            "pageSection": {
+              "name": null,
+              "index": null,
+              "numberOfItems": null,
+              "displayType": null,
+              "onSiteCampaignId": null,
+              "adType": null,
+              "campaignCategory": null
+            },
+            "pageSubSection": null,
+            "pageSequenceNumber": 3,
+            "pageViewedTimeMs": 29388,
+            "navigation": null,
+            "renderDetails": {
+              "isLazyLoad": false,
+              "renderInitTimestamp": 1634661037560,
+              "partialRenderedTimestamp": null,
+              "partialRenderedMs": null,
+              "fullyRenderedTimestamp": 1634661039166,
+              "fullyRenderedMs": 1606,
+              "viewRenderedStatus": "complete"
+            },
+            "settings": null,
+            "elements": {
+              "StateType": 11,
+              "uiName": null,
+              "standardizedName": null,
+              "numberOfItems": null,
+              "elementType": null,
+              "parentallyBlockedItems": null,
+              "entitledItems": null,
+              "elementIndex": null,
+              "elementIntValue": null,
+              "elementStringValue": null,
+              "elementUrl": null,
+              "selectedOptions": null,
+              "yCoordinate": null,
+              "xCoordinate": null
+            },
+            "billing": {
+              "billDueDate": null,
+              "billStartDate": null,
+              "billEndDate": null,
+              "billProgress": null,
+              "ccVendor": null,
+              "paymentMethod": null,
+              "recentCharges": null,
+              "core": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              },
+              "mobile": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              }
+            },
+            "components": null,
+            "additionalInformation": null,
+            "pageTitle": "Plan Details",
+            "totalAmountDue": null,
+            "pastDueAmount": null,
+            "billerType": null,
+            "pageDisplayType": null,
+            "parentMarket": null,
+            "childMarket": null,
+            "orders": null,
+            "userSubJourney": [
+              "view"
+            ]
+          },
+          "modal": null,
+          "device": null
+        },
+        "referrer": null
+      },
+      "operation": {
+        "success": null,
+        "operationType": null,
+        "userEntry": {
+          "text": null,
+          "entryType": null,
+          "feedback": null,
+          "category": null,
+          "strValue": null,
+          "numeric": null,
+          "surveyId": null,
+          "questionId": null,
+          "feedbackId": null,
+          "feedbackTarget": null,
+          "questionType": null
+        },
+        "billing": null,
+        "toggleState": null,
+        "thirdParty": null,
+        "userPreferencesSelections": null,
+        "userPreferenceCategory": null,
+        "settingsUpdates": null,
+        "device": null,
+        "additionalInformation": null,
+        "intValue": null
+      }
+    }
+  ],
+  "visit": {
+    "device": {
+      "deviceFormFactor": "phone",
+      "deviceType": "iPhone",
+      "model": "iPhone12,1 Simulator",
+      "manufacturer": "Apple",
+      "operatingSystem": "iOS 14.0.1",
+      "uuid": "1D981DF7-D94D-4473-95ED-1984E1575361",
+      "availableStorage": "499963174912",
+      "usedStorage": "391084986368",
+      "deviceSavedCreds": null,
+      "androidDeviceId": null,
+      "serialNumber": null,
+      "settings": {
+        "closedCaption": "false",
+        "descriptiveVideoServices": "",
+        "greyscale": "false",
+        "highContrast": "false",
+        "invertColors": "false",
+        "largeText": "false",
+        "talkBack": "false",
+        "textSize": "17",
+        "voiceover": "false",
+        "zoom": ""
+      }
+    },
+    "visitStartupTimeMs": 0,
+    "applicationDetails": {
+      "appVersion": "9.21.0",
+      "venonaVersion": "5.12.2.1",
+      "venonaRequirementsVersion": "1.1892",
+      "applicationName": "MySpectrum",
+      "applicationType": "iOS",
+      "drmEnabled": "false",
+      "environment": {
+        "environmentName": "qa"
+      },
+      "referrerLink": null,
+      "referrerLocation": null
+    },
+    "account": {
+      "accountNumber": "83149501",
+      "accountNumberAes256": null,
+      "accountNumberDetails": null,
+      "demographicData": null,
+      "accountKma": null,
+      "accountFeatures": {
+        "accessibility": false
+      },
+      "timeZone": "",
+      "oauthToken": null,
+      "status": null,
+      "subscription": null,
+      "accountBillingDivision": "202",
+      "accountBillingDivisionId": "CAR.202",
+      "accountBillingId": "CAR.202/83149501",
+      "accountIntestDivision": null,
+      "billingSlice": null,
+      "accountBillingState": null,
+      "details": {
+        "mso": "TWC",
+        "billingStatus": null,
+        "autoPayStatus": null,
+        "statementMethod": null,
+        "appointmentScheduled": null,
+        "billingAmountDueSource": null,
+        "serviceSubscriptions": {
+          "scp": "inactive",
+          "multiAp": "inactive",
+          "mobile": "inactive",
+          "internet": "inactive",
+          "voice": "inactive",
+          "tv": "inactive",
+          "wifi": "inactive",
+          "secureConnect": "active"
+        },
+        "softDisconnectDate": null,
+        "billingServices": null
+      },
+      "systemSys": null,
+      "systemAgent": null,
+      "systemPrin": null,
+      "accountCompany": "16",
+      "accountSiteId": "202",
+      "accountFranchise": "411",
+      "paymentRestrictions": null,
+      "configurationFactors": null,
+      "tokenType": null,
+      "clientLocationNumber": "831495",
+      "locationNumber": null,
+      "lineOfBusiness": {
+        "StateType": 44,
+        "internet": {
+          "packageName": "Spectrum Internet",
+          "productId": "1-1DZCVD",
+          "equipment": [
+            {
+              "name": "WiFi Router",
+              "quantity": 1
+            }
+          ],
+          "premiumOrAddOn": null,
+          "StateType": 45
+        },
+        "phone": null,
+        "tv": {
+          "packageName": "TV Gold",
+          "productId": "1-1E2WYJ",
+          "equipment": [
+            {
+              "name": "HD Box",
+              "quantity": 1
+            }
+          ],
+          "premiumOrAddOn": null,
+          "StateType": 45
+        }
+      },
+      "mobileAccountNumber": "8260130526644508",
+      "equipment": {
+        "activationStatus": null,
+        "StateType": 46
+      },
+      "mobileServiceStatus": null,
+      "speedBoost": null
+    },
+    "login": {
+      "failedAttempts": 0,
+      "loginCompletedTimestamp": 1634661025662,
+      "oauthExpirationTimestamp": 1634664625656,
+      "authAttemptId": null,
+      "loggedIn": "true",
+      "loginDurationMs": 2778
+    },
+    "visitId": "a967afc3-25aa-49ca-a8a6-e2e5c3d460a6",
+    "previousVisitId": "50bcfded-b949-4fef-bf1d-027d2dfe5052",
+    "appSessionId": "c7dade1b-880f-4a88-a8e0-a05cbe32ef44",
+    "visitStartTimestamp": 1634661020909,
+    "screenResolution": null,
+    "applicationStatistics": null,
+    "connection": {
+      "connectionType": "wifi",
+      "networkStatus": "unknown",
+      "networkCellCarrier": "unknown",
+      "networkCellNetworkType": "unknown"
+    },
+    "experimentUuids": [
+      "c647ca6fe45c4068b45639985e4b032b",
+      "d455240006b84a8b8c59991ff21fa57d"
+    ],
+    "variantUuids": [
+      "f1f2f9cf4b5a4090a25c1027b6d27788",
+      "8540da379f854219b11040e22a84cf58"
+    ],
+    "user": {
+      "role": "primary"
+    },
+    "firstLaunch": "true",
+    "permissionSettings": {
+      "locationPermissions": "true"
+    },
+    "promotion": {
+      "startDate": null,
+      "endDate": null,
+      "offerId": null,
+      "promoId": null,
+      "promoType": null,
+      "buyflow": {
+        "eligible": null,
+        "blacklistedFromFreePreview": null,
+        "blacklistedFromFreeTrial": null,
+        "householdFoundInMarketingFile": null,
+        "targetedOfferFound": null,
+        "requestedFreePreviewDisabled": null,
+        "requestedOfferMatchedTargeted": null,
+        "requestedOfferIsReturned": null,
+        "offerPriority": [
+          "419393"
+        ],
+        "appPromoState": "Promotional",
+        "requestedOfferId": "419393",
+        "scenarioNumber": -99,
+        "singleOfferReturned": null,
+        "offerId": null,
+        "presentedOffers": null
+      }
+    },
+    "additionalInformation": null,
+    "kochavaSdk": null,
+    "notification": null
+  },
+  "domain": "portals",
+  "customer": "Charter",
+  "finishedCreatedTimestamp": 1634661078
+}
