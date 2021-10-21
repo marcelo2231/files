@@ -1,0 +1,264 @@
+ {
+      "message": {
+        "timestamp": 1634846281933,
+        "name": "featureStop",
+        "eventCaseId": "mySpectrum_featureStop_buyFlow2_addTvEquipment_triggeredByUser",
+        "triggeredBy": "user",
+        "category": "contentDiscovery",
+        "feature": {
+          "featureName": "addTvEquipment",
+          "featureType": null,
+          "currentStep": 3,
+          "numberOfSteps": null,
+          "featureStepName": "purchaseStop",
+          "transactionId": "d9ee152e-d147-41c2-9ea7-55c3efa86a8b | 63770421435861",
+          "featureStepChanged": true,
+          "previousStep": 3,
+          "completedSteps": [
+            "addTvEquipment-reviewOrder",
+            "addTvEquipment-addReceivers",
+            "purchaseStop"
+          ],
+          "clientCart": null,
+          "buyflow": null,
+          "accountNumber": null
+        },
+        "context": "buyFlow2",
+        "sequenceNumber": 74,
+        "timeSinceLastEventMs": 23728,
+        "triggeredUsing": null,
+        "notification": null
+      },
+      "state": {
+        "name": "navigating",
+        "entryTimestamp": 1634846281933,
+        "previousState": {
+          "name": "appInitialized",
+          "entryTimestamp": 1634846258205,
+          "entryVideoPosition": 0,
+          "exitVideoPosition": 0,
+          "exitTimestamp": 1634846281933
+        },
+        "view": {
+          "currentPage": {
+            "currentBalanceAmount": null,
+            "appSection": "buyFlow-addTvEquipment",
+            "pageName": "addReceivers",
+            "pageSection": {
+              "name": null,
+              "index": null,
+              "numberOfItems": null,
+              "displayType": null,
+              "onSiteCampaignId": null,
+              "adType": null,
+              "campaignCategory": null,
+              "allDisplayed": [
+                "4 receivers"
+              ]
+            },
+            "pageSubSection": null,
+            "pageSequenceNumber": 6,
+            "pageViewedTimeMs": 0,
+            "navigation": null,
+            "renderDetails": {
+              "isLazyLoad": false,
+              "renderInitTimestamp": 1634846258195,
+              "partialRenderedTimestamp": null,
+              "partialRenderedMs": null,
+              "fullyRenderedTimestamp": 1634846258200,
+              "fullyRenderedMs": 5,
+              "viewRenderedStatus": "complete"
+            },
+            "settings": null,
+            "elements": {
+              "StateType": 11,
+              "uiName": null,
+              "standardizedName": null,
+              "numberOfItems": null,
+              "elementType": null,
+              "parentallyBlockedItems": null,
+              "entitledItems": null,
+              "elementIndex": null,
+              "elementIntValue": null,
+              "elementStringValue": null,
+              "elementUrl": null,
+              "selectedOptions": null,
+              "yCoordinate": null,
+              "xCoordinate": null
+            },
+            "billing": {
+              "billDueDate": null,
+              "billStartDate": null,
+              "billEndDate": null,
+              "billProgress": null,
+              "ccVendor": null,
+              "paymentMethod": null,
+              "recentCharges": null,
+              "core": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              },
+              "mobile": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              }
+            },
+            "components": null,
+            "additionalInformation": null,
+            "pageTitle": null,
+            "totalAmountDue": null,
+            "pastDueAmount": null,
+            "billerType": null,
+            "pageDisplayType": null,
+            "parentMarket": null,
+            "childMarket": null,
+            "orders": null,
+            "userSubJourney": null
+          },
+          "previousPage": {
+            "currentBalanceAmount": null,
+            "appSection": "buyFlow-addTvEquipment",
+            "pageName": "addTvEquipmentReviewOrder",
+            "pageSection": {
+              "name": null,
+              "index": null,
+              "numberOfItems": null,
+              "displayType": null,
+              "onSiteCampaignId": null,
+              "adType": null,
+              "campaignCategory": null,
+              "allDisplayed": null
+            },
+            "pageSubSection": null,
+            "pageSequenceNumber": 5,
+            "pageViewedTimeMs": 53,
+            "navigation": null,
+            "renderDetails": {
+              "isLazyLoad": false,
+              "renderInitTimestamp": 1634846258141,
+              "partialRenderedTimestamp": null,
+              "partialRenderedMs": null,
+              "fullyRenderedTimestamp": 1634846258147,
+              "fullyRenderedMs": 6,
+              "viewRenderedStatus": "complete"
+            },
+            "settings": null,
+            "elements": {
+              "StateType": 11,
+              "uiName": null,
+              "standardizedName": null,
+              "numberOfItems": null,
+              "elementType": null,
+              "parentallyBlockedItems": null,
+              "entitledItems": null,
+              "elementIndex": null,
+              "elementIntValue": null,
+              "elementStringValue": null,
+              "elementUrl": null,
+              "selectedOptions": null,
+              "yCoordinate": null,
+              "xCoordinate": null
+            },
+            "billing": {
+              "billDueDate": null,
+              "billStartDate": null,
+              "billEndDate": null,
+              "billProgress": null,
+              "ccVendor": null,
+              "paymentMethod": null,
+              "recentCharges": null,
+              "core": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              },
+              "mobile": {
+                "billStartDate": null,
+                "billEndDate": null,
+                "billDueDate": null,
+                "totalAmountDue": null,
+                "pastDueAmount": null,
+                "currentBalanceAmount": null,
+                "billStatus": null
+              }
+            },
+            "components": null,
+            "additionalInformation": null,
+            "pageTitle": null,
+            "totalAmountDue": null,
+            "pastDueAmount": null,
+            "billerType": null,
+            "pageDisplayType": null,
+            "parentMarket": null,
+            "childMarket": null,
+            "orders": null,
+            "userSubJourney": null
+          },
+          "modal": null,
+          "device": {
+            "deviceType": null,
+            "macAddress": null,
+            "status": null,
+            "deviceModel": null
+          }
+        },
+        "referrer": null,
+        "impression": null
+      },
+      "operation": {
+        "success": false,
+        "operationType": null,
+        "userEntry": {
+          "text": null,
+          "entryType": null,
+          "feedback": null,
+          "category": null,
+          "strValue": null,
+          "numeric": null,
+          "surveyId": null,
+          "questionId": null,
+          "feedbackId": null,
+          "feedbackTarget": null,
+          "questionType": null
+        },
+        "billing": {
+          "paymentDate": null,
+          "paymentDueDate": null,
+          "paymentMethod": null,
+          "statementAge": null,
+          "paymentAmountUsd": null
+        },
+        "toggleState": null,
+        "thirdParty": null,
+        "userPreferencesSelections": null,
+        "userPreferenceCategory": null,
+        "settingsUpdates": null,
+        "device": null,
+        "additionalInformation": null,
+        "intValue": null
+      },
+      "application": {
+        "api": null,
+        "error": {
+          "errorType": "buyFlow",
+          "errorCode": null,
+          "clientErrorCode": null,
+          "errorMessage": null
+        }
+      },
+      "custom": null
+    }
